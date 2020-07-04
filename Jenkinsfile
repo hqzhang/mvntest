@@ -6,7 +6,7 @@ pipeline {
           steps{
             echo 'Hello World'
             script {
-             sh 'mvn --verison '
+             sh 'mvn --version '
            }
          }
    
